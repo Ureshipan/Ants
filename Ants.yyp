@@ -7,6 +7,7 @@
     {"id":{"name":"scr_walker_spawn","path":"scripts/scr_walker_spawn/scr_walker_spawn.yy",},"order":1,},
     {"id":{"name":"Def_ant","path":"sprites/Def_ant/Def_ant.yy",},"order":0,},
     {"id":{"name":"scr_start_generator","path":"scripts/scr_start_generator/scr_start_generator.yy",},"order":7,},
+    {"id":{"name":"Loading","path":"sprites/Loading/Loading.yy",},"order":0,},
     {"id":{"name":"scr_clean_up","path":"scripts/scr_clean_up/scr_clean_up.yy",},"order":2,},
     {"id":{"name":"spr_iso","path":"sprites/spr_iso/spr_iso.yy",},"order":1,},
     {"id":{"name":"spr_simple","path":"sprites/spr_simple/spr_simple.yy",},"order":3,},
@@ -63,6 +64,7 @@
     {"folderPath":"folders/Sprites/LovePunkGen.yy","order":1,"resourceVersion":"1.0","name":"LovePunkGen","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Tile Sets/LovePunkGen.yy","order":1,"resourceVersion":"1.0","name":"LovePunkGen","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Ants.yy","order":2,"resourceVersion":"1.0","name":"Ants","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Loading screen.yy","order":3,"resourceVersion":"1.0","name":"Loading screen","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

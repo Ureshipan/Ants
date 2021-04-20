@@ -2,8 +2,8 @@
 //FOR DEMO
 //TopDown: Height = 32
 //Isometric: Height = 16
-#macro CELL_WIDTH 64
-#macro CELL_HEIGHT 64
+#macro CELL_WIDTH 32
+#macro CELL_HEIGHT 32
 
 //DEMO ONLY 
 //i use this to demostrate different tilesets 
@@ -18,7 +18,7 @@
 #macro FLOOR_HALLWAY -51
 
 //this is the default value of the grid spots and used to determine walls
-#macro VOID -10
+#macro VOID 1
 
 //LAYOUT METHOD
 //Options: TopDown, Isometric
@@ -39,7 +39,7 @@
 ///////////////////////////
 
 //How many Walkers do you want to spawn at the start of Generations?
-#macro NUMBER_OF_INITIAL_WALKERS 3
+#macro NUMBER_OF_INITIAL_WALKERS 5
 
 //When a Walker is "walking" it performs 1 of 2 tasks
 // - Make a Room 
@@ -56,13 +56,13 @@
 //we can spawn more child walkers
 //use these values to control how many
 #macro GEN_NEW_WALKERS_MIN 1
-#macro GEN_NEW_WALKERS_MAX 2
+#macro GEN_NEW_WALKERS_MAX 5
 
 //Ok this is an interesting settings
 //Max Walkers really means that when I have X number of walkers currently running dont spawn more child walkers
 //Its how we stop the generation from going on forever.
 //Definitely a settings to play with.
-#macro GEN_MAX_WALKERS 20
+#macro GEN_MAX_WALKERS 70
 
 //Lets think about the general idea of a 'walker' 
 //A Walker - is something that moves forward in a certain direction by a given amount. <-- kind of sounds like a hallway, right?
@@ -76,7 +76,7 @@
  
 //Do we want to spawn the child walkers at a random spot in the last room?
 //if false, child walker is spawned in center
-#macro RANDOM_SPAWN_SPOT true
+#macro RANDOM_SPAWN_SPOT false
 /////////////////////////
 // WALKER SETTINGS END //
 /////////////////////////
@@ -85,13 +85,13 @@
 
 // the next 4 settings is all about randomizing room sizes
 #macro GEN_ROOM_WIDTH_MIN 2
-#macro GEN_ROOM_WIDTH_MAX 8
+#macro GEN_ROOM_WIDTH_MAX 6
 #macro GEN_ROOM_HEIGHT_MIN 2
-#macro GEN_ROOM_HEIGHT_MAX 8
+#macro GEN_ROOM_HEIGHT_MAX 6
 
 //if we are making a hallway, then what are our min and max lengths a hallway can be
-#macro GEN_HALLWAY_MIN 5
-#macro GEN_HALLWAY_MAX 40
+#macro GEN_HALLWAY_MIN 15
+#macro GEN_HALLWAY_MAX 35
 
 //Width of a hallway is an interesting setting
 //This setting is used in a choose() method, hence why we use a comma delimited set of integers here
@@ -104,7 +104,7 @@
 //Min and Max Dungeon Area Settings are used to make sure you get
 //   a dungeon 
 #macro GEN_DUNGEON_AREA_MIN 0
-#macro GEN_DUNGEON_AREA_MAX 1000
+#macro GEN_DUNGEON_AREA_MAX 150
 
 
 //Generation Important Variables - Default values
