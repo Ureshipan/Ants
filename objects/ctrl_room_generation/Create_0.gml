@@ -39,7 +39,7 @@
 ///////////////////////////
 
 //How many Walkers do you want to spawn at the start of Generations?
-#macro NUMBER_OF_INITIAL_WALKERS 5
+#macro NUMBER_OF_INITIAL_WALKERS 7
 
 //When a Walker is "walking" it performs 1 of 2 tasks
 // - Make a Room 
@@ -67,7 +67,7 @@
 //Lets think about the general idea of a 'walker' 
 //A Walker - is something that moves forward in a certain direction by a given amount. <-- kind of sounds like a hallway, right?
 //Well this setting allows a walker to just spawn and 
-#macro WALKER_SPAWN_ROOMS true
+#macro WALKER_SPAWN_ROOMS false
 
 //This setting tells the walker...
 //if you just made a hallway, then either immediately spawn a Room or just keep iterating

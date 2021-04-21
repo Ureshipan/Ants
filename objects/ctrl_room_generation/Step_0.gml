@@ -21,8 +21,8 @@ if(_generator_active && _method_ready) {
 			///    my advice is to do many little dungeons, so have 'stairs' or 'zoning' in your game if you go isometric
 			
 			if(LAYOUT_METHOD == "TopDown") {
-				var floor_layer_id_8 = layer_tilemap_get_id("Floor_8");
-				var floor_layer_id_4 = layer_tilemap_get_id("Floor_4");
+				var floor_layer_id_8 = "Floor"
+				var floor_layer_id_4 = "Floor"
 				var bottomside_wall_layer_id_8 = layer_tilemap_get_id("BottomSideWalls_8");
 				var bottomside_wall_layer_id_4 = layer_tilemap_get_id("BottomSideWalls_4");
 				var top_wall_layer_id_8 = layer_tilemap_get_id("TopWalls_8");
@@ -166,6 +166,15 @@ if(_generator_active && _method_ready) {
 			
 			
 			_generator_active = false;
+			balance = 400
+			for (var ix = 32; ix < 9600; ix += 32)
+			{
+				for (var iy = 32; iy < 9600; iy += 32)
+				{
+					if balance > 0 and random(300) > 299{instance_create_depth(ix, iy, 0, Build_block); balance -= 1}
+				}
+			}
+			instance_destroy()
 		}
 	}
 }
