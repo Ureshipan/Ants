@@ -15,7 +15,7 @@
     {"id":{"name":"t_iso_nature","path":"tilesets/t_iso_nature/t_iso_nature.yy",},"order":1,},
     {"id":{"name":"scr_is_density_correct","path":"scripts/scr_is_density_correct/scr_is_density_correct.yy",},"order":5,},
     {"id":{"name":"spr_complex","path":"sprites/spr_complex/spr_complex.yy",},"order":0,},
-    {"id":{"name":"Sprite6","path":"sprites/Sprite6/Sprite6.yy",},"order":1,},
+    {"id":{"name":"Queen","path":"sprites/Queen/Queen.yy",},"order":1,},
     {"id":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},"order":0,},
     {"id":{"name":"scr_walker_begin_generation","path":"scripts/scr_walker_begin_generation/scr_walker_begin_generation.yy",},"order":0,},
     {"id":{"name":"scr_get_isometric_cell_y","path":"scripts/scr_get_isometric_cell_y/scr_get_isometric_cell_y.yy",},"order":4,},
